@@ -1,0 +1,357 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+
+}
+
+
+nav{
+    height:80px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+nav>article{
+    height:100%;
+    width: 90%;
+    /* border:2px solid red; */
+    display: flex;
+    
+}
+nav>article>.logo{
+    height: 100%;
+    width:55%;
+    /* background-color: blue; */
+
+}
+nav>article>.menu{
+    height:100%;
+    width:45%;
+    /* background-color: brown; */
+}
+nav>article>.menu>ol{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none; 
+    align-items: center;
+}
+nav>article>.menu>ol>li>a{
+    color:white;
+     text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+     font-size: 14px;
+
+
+}
+
+nav>article>.menu>ol>li>a:hover{
+    color: rgb(8, 197, 8);
+}
+nav>article>.logo{
+    display: flex;
+    align-items: center;
+}
+nav>article>.logo>svg{
+    width: 20%;
+    fill:blanchedalmond
+}
+nav>article>.logo>svg:hover{
+fill:rgb(8, 193, 8);
+}
+
+.middle{
+    
+    height: 90vh;
+    width: 100%;
+    background:url(https://www.scdn.co/i/free/bubbles-mobile.svg)  center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    
+    display:flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.middle>article{
+    height:80%;
+    width:70%;
+    /* border:2px solid white; */
+    display: flex;
+}
+
+.middle>article>.phonebox{
+height:100%;
+width:40%;
+/* background-color: blue; */
+}
+
+.middle>article>.text{
+    height:100%;
+    width:60%;
+    /* background-color: aqua; */
+}
+
+.middle>article>.phonebox>div{
+
+    height:100%;
+    width:70%;
+    background-color: white;
+    border-radius: 40px 40px 0px 0px ;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top:20px;
+
+
+}
+
+.middle>article>.phonebox>div>div{
+    height:7px;
+    width:50px;
+    background-color: black;
+    border-radius: 5px;
+    
+}
+
+.middle>article>.phonebox>div>img{
+    
+    height:97%;
+    width:93%;
+    margin-top: 30px;
+
+}
+
+.middle>article>.text>.letter{
+    height:50%;
+    width: 100%;
+    /* border:2px solid white; */
+    /* background-color: black; */
+}
+
+.middle>article>.text>.letter>p{
+
+
+    font-size: 55px;
+    color:white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 90px;
+}
+
+.middle>article>.text>.continue{
+
+
+    border :2px solid white;
+    height:50px;
+    width:200px;
+    background-color: white;
+    border-radius: 30px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle>article>.text>.continue>p{
+   
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+    
+.whyspotify{
+
+    height: 80vh;
+    width: 100%;
+    
+    /* background-color: aqua; */
+
+
+}
+
+.whyspotify>div{
+    height:25vh;
+    width:100%;
+    /* border:2px solid black; */
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyspotify>div>p{
+
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+}
+
+.whyspotify>.fourcell{
+    height:50vh;
+    width:100%;
+    /* border:2px sloid black; */
+    display: flex;
+    justify-content:space-evenly;
+}
+
+ 
+
+.whyspotify>.fourcell>.box1{
+    height:100%;
+    width:12%;
+    /* border:2px solid black; */
+   
+}
+
+
+.whyspotify>.fourcell>.box2{
+    height:100%;
+    width:19%;
+    /* border:2px solid black; */
+
+    
+    
+}
+
+.whyspotify>.fourcell>.box2>div{
+    height:60%;
+    width:100%;
+    /* border:2px solid black; */
+
+   padding:30px;
+
+}
+
+.whyspotify>.fourcell>.box2>.p{
+    height:40%;
+    width:100%;
+    /* border:2px solid black; */
+
+   
+}
+
+
+
+.whyspotify>.fourcell>.box3{
+    height:100%;
+    width:19%;
+    /* border:2px solid black; */
+
+}
+ 
+
+.whyspotify>.fourcell>.box3>div{
+    height:60%;
+    width:100%;
+    /* border:2px solid black; */
+
+    padding:30px;
+}
+
+.whyspotify>.fourcell>.box3>.q{
+    height:40%;
+    width:100%;
+    /* border:2px solid black; */
+}
+
+
+
+
+.whyspotify>.fourcell>.box4{
+    height:100%;
+    width:19%;
+    /* border:2px solid black; */
+}
+
+
+.whyspotify>.fourcell>.box4>div{
+    height:60%;
+    width:100%;
+    /* border:2px solid black; */
+
+    padding:30px;
+}
+
+.whyspotify>.fourcell>.box4>.r{
+    height:40%;
+    width:100%;
+    /* border:2px solid black; */
+}
+
+.whyspotify>.fourcell>.box5{
+    height:100%;
+    width:19%;
+    /* border:2px solid black; */
+}
+
+
+.whyspotify>.fourcell>.box5>div{
+    height:60%;
+    width:100%;
+    /* border:2px solid black; */
+
+    padding:30px;
+}
+
+.whyspotify>.fourcell>.box5>.s{
+    height:40%;
+    width:100%;
+    /* border:2px solid black; */
+}
+
+.whyspotify>.fourcell>.box6{
+    height:100%;
+    width:12%;
+    /* border:2px solid black; */
+}
+
+.free{
+    height: 70vh;
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.free>h1{
+
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color:white;
+}
+
+.question{
+    height:70vh;
+    width:100%;
+}
+
+.question>div{
+    height:30vh;
+    width:100%;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question>div>h1{
+
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:black;
+
+}
+
+
+
